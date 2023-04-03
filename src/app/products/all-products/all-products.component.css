@@ -1,0 +1,12 @@
+.card-img-top{
+    margin: auto;
+ height: 250px;
+ width: 200px;   
+ align-items: center;
+ padding-top: 20px;
+}
+.card h-100{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+img{
+    margin-left: 250px;
+}
+h3{
+    text-align: center;
+}
+/* button{
+    margin-left: 600px;
+    margin-bottom: 50px;
+} */
+
+.card-img-top{
+    width: 150px;
+    height: 300px;
+}
+
+.card-img-top:hover{
+
+    transform: scale(1.25);
+    transition: 0.5;
+}
+
+img{
+    margin-left: 250px;
+}
+h3{
+    text-align: center;
+}
+button #btn1{
+    margin-left: 600px;
+    margin-bottom: 50px;
+}
+.card-img-top{
+    margin: auto;
+ height: 250px;
+ width: 200px;   
+ align-items: center;
+ padding-top: 20px;
+}
+.card h-100{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}

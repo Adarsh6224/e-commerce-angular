@@ -1,0 +1,35 @@
+                                                                    FrontEnd Designing
+
+1)  Create a project - ng new e-commerce
+2)  Run Angular  ng serve -o
+3)  Add bootstrap, font awsome, google fonts
+4)  Lazy loading - its a process of loading component and modules
+                 - it imroves application load time and performance
+
+                 ng g m products --route products --module app.module
+
+5. Add router-outlet selector into the route component 
+    -app.component.html
+6. Create  a component should lazy loading in the product module
+
+    -> all-products --- ng g c products/all-products
+    -> Cart --- ng g c products/cart
+    -> wishlist --- ng g c products/wishlist
+
+7. Setup path for each module 
+    product-routing module
+8. PageNotFound --- ng g c Page-not-found
+    setting path for page-not-found --- app.route-module
+9. Creating Header and Footer
+    ng g c Header
+    ng g c Footer
+10. Designing of frontend
+11. Integration
+    a) Creating services for api calling :-- ng g s products/api
+    b) Import Http client module in product module 
+    c) Dependency injection HttpClient classs in API services
+
+12) page Designing
+
+13) Search for a product
+            ng g p products/pipes/filter
